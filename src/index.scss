@@ -1,0 +1,7 @@
+@import 'title.scss';
+
+.title {
+  color: grey;
+  width: 200px;
+  @include ellipsis;
+}
